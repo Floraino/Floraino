@@ -1,0 +1,38 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+  <title id="title">Floriano — code in motion</title>
+  <desc id="description">Dark racing-inspired profile banner with red speed lines, a stylized circuit and Floriano's name.</desc>
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0d11"/>
+      <stop offset="0.58" stop-color="#171b21"/>
+      <stop offset="1" stop-color="#090a0d"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8e121c"/>
+      <stop offset="0.55" stop-color="#e12430"/>
+      <stop offset="1" stop-color="#ff5a49"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" fill="url(#base)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <path d="M0 0h1200v7H0z" fill="url(#red)"/>
+  <path d="M0 294h1200v6H0z" fill="url(#red)"/>
+  <path d="M-80 283 760 58h56L-25 283z" fill="#ffffff" fill-opacity=".045"/>
+  <path d="M-45 281 815 51h18L-25 281z" fill="url(#red)" fill-opacity=".86"/>
+  <path d="M980-25 1175-25 1195 0 1200 194 1150 215 1096 142 1030 148 965 115 937 48z" fill="none" stroke="#ed3540" stroke-opacity=".52" stroke-width="3"/>
+  <path d="M983 148 1026 139 1099 155 1157 224" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="1.5" stroke-dasharray="5 8"/>
+  <g fill="#f7f8fa" font-family="Arial, Helvetica, sans-serif">
+    <text x="72" y="78" font-size="16" font-weight="700" letter-spacing="5" fill="#f05257">GRID / 01</text>
+    <text x="68" y="164" font-size="76" font-weight="900" letter-spacing="5">FLORIANO</text>
+    <text x="72" y="209" font-size="18" font-weight="700" letter-spacing="7" fill="#d5d9df">CODE IN MOTION</text>
+    <text x="72" y="261" font-size="14" letter-spacing="2" fill="#aeb5bd">BUILD  /  TEST  /  REFINE  /  SHIP</text>
+  </g>
+  <g transform="translate(1050 245)" fill="#f7f8fa" opacity=".75">
+    <rect x="0" y="0" width="9" height="9"/><rect x="18" y="0" width="9" height="9"/>
+    <rect x="9" y="9" width="9" height="9"/><rect x="27" y="9" width="9" height="9"/>
+    <rect x="0" y="18" width="9" height="9"/><rect x="18" y="18" width="9" height="9"/>
+  </g>
+</svg>
