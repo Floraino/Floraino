@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="assets/grid-banner.svg" alt="Floriano — Code in Motion" width="100%" />
 </p>
 
@@ -27,4 +27,3 @@ Gosto de transformar ideias em produtos que as pessoas possam usar. Meu trabalho
 Conheça o [código do Cortelol](https://github.com/Floraino/Cortelol), acompanhe o [andamento do projeto](https://github.com/Floraino/Cortelol/blob/main/PLAN.md) ou abra uma [issue](https://github.com/Floraino/Cortelol/issues) com uma ideia ou problema.
 
 <sub>Perfil com estética inspirada no automobilismo. Sem associação com equipes ou campeonatos.</sub>
-
